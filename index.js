@@ -26,6 +26,7 @@ function sayHiToGrandma(aStr){
     return "I can't hear you!"
   }
   if(aStr === "I love you, Grandma."){
+    console.log("Hey")
     return "I love you, too."
   }
   
