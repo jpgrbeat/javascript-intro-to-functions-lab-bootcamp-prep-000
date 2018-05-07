@@ -17,5 +17,17 @@ function sayHiToGrandma(aStr){
   if(aStr.toLowerCase() === aStr){
     
   }
+  function sayHiToGrandma(aStr){
+  if(aStr.toUpperCase() === aStr){
+    return "YES INDEED!"
+  }
   
+  if(aStr.toLowerCase() === aStr){
+    return "I can't hear you!"
+  }
+  if(aStr === "I love you, Grandma."){
+    return "I love you, too."
+  }
+  
+}
 }
