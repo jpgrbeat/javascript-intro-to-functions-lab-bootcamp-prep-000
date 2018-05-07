@@ -17,5 +17,7 @@ function sayHiToGrandma(aStr){
   if(aStr.toLowerCase() === aStr){
     return "I can't hear you!"
   }
-  if()
+  if(aStr === "I love you, Grandma."){
+    return "I lover you, too."
+  }
 }
